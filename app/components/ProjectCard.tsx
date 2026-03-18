@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 type ProjectCardProps = {
     title: string;
     description: string;
@@ -9,9 +11,9 @@ export default function ProjectCard({ title, description, link }: ProjectCardPro
         <div>
             <h1>{title}</h1>
             <p>{description}</p>
-            <a href={link} target="_blank" rel="noopener noreferrer">
+            <Link to={link} rel="noopener noreferrer">
                 View Project
-            </a>
+            </Link>
         </div>
     )
 }

@@ -1,8 +1,6 @@
-import './App.css'
-import ProjectList from './components/ProjectList'
+import ProjectList from '../components/ProjectList';
 
-function App() {
-
+export function Welcome() {
   return (
     <div className='flex items-center justify-center min-h-screen'>
       <h1>Test</h1>
@@ -17,5 +15,3 @@ function App() {
     </div>
   )
 }
-
-export default App
