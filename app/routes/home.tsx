@@ -143,11 +143,11 @@ export default function Home() {
         </section>
 
         {/* projs */}
-        <section className="mt-14">
-          <h2 className="mb-5 text-2xl font-semibold text-white">
+        <section className="mt-8">
+          <h2 className="text-2xl font-semibold text-white">
             Projects
           </h2>
-          <div className="rounded-2xl border border-white/10 bg-white/5 p-5">
+          <div className="rounded-2xl mt-2 border border-white/10 bg-white/5 p-5">
             <ProjectList projects={projects} />
           </div>
         </section>
