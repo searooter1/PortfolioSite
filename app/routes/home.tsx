@@ -1,4 +1,5 @@
 import type { Route } from "./+types/home";
+import { projects } from "../data/projects";
 import ProjectList from "../components/ProjectList";
 import {
   FaGithub,
@@ -32,24 +33,6 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-
-  //proj list
-  const projects = [
-    {
-      id: 1,
-      title: "TCG Deck Builder",
-      description:
-        "A full-stack deck builder built with React, TypeScript, Next.js, Auth.js, and MongoDB.",
-      link: "/project1",
-    },
-    {
-      id: 2,
-      title: "Portfolio Website",
-      description:
-        "A responsive personal portfolio built with React Router, TypeScript, and Tailwind CSS.",
-      link: "/project2",
-    },
-  ];
 
   // mapping skill names to icons
   const skills = [

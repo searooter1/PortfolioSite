@@ -1,27 +1,23 @@
 import ProjectCard from "./ProjectCard";
-
-type cardData = {
-    id: number;
-    title: string;
-    description: string;
-    link: string;
-}
+import type { Project } from "../data/projects";
 
 type ProjectListProps = {
-    projects: cardData[];
-}
+  projects: Project[];
+};
 
 export default function ProjectList({ projects }: ProjectListProps) {
-    return(
-        <div>
-            {projects.map((project) => (
-                <ProjectCard
-                    key={project.id}
-                    title={project.title}
-                    description={project.description}
-                    link={project.link}
-                />
-            ))}
-        </div>
-    )
+  return (
+    <div className="grid grid-cols-1 gap-6">
+      {projects.map((project) => (
+        <ProjectCard
+          key={project.id}
+          title={project.title}
+          description={project.description}
+          slug={project.slug}
+          image={project.image}
+          technologies={project.technologies}
+        />
+      ))}
+    </div>
+  );
 }
