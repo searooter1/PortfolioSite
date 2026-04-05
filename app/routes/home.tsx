@@ -130,7 +130,7 @@ export default function Home() {
             <h2 className="mb-3 text-2xl font-semibold text-white">
               About Me
             </h2>
-            <p className="leading-8 text-white/80">
+            <p className="leading-8 text-white">
               I am a Computer Programming and Analysis student at Durham College with a
               interest in building modern websites with React and
               TypeScript. I enjoy creating projects utilizing my skills in web development, databases, and
