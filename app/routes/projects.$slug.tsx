@@ -51,7 +51,7 @@ export default function ProjectDetails({ params }: Route.ComponentProps) {
                 className="mt-3 mr-3 flex items-center gap-2"
               >
                 <FaGithub className="text-lg" />
-                <span className="text-sm">GitHub Repo</span>
+                <span className="text-sm">GitHub</span>
               </a>
             </span>
           )}
