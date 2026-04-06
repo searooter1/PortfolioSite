@@ -2,7 +2,7 @@ import type { Route } from "./+types/projects.$slug";
 import { Link } from "react-router";
 import { projects } from "../data/projects";
 import ImageCarousel from "../components/ImageCarousel";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 export function meta({ params }: Route.MetaArgs) {
   return [
@@ -41,17 +41,35 @@ export default function ProjectDetails({ params }: Route.ComponentProps) {
           {project.title}
         </h1>
 
-        {project.repoLink && (
-          <a
-            href={project.repoLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-3 flex items-center gap-2"
-          >
-            <FaGithub className="text-lg" />
-            <span className="text-sm">GitHub Repo</span>
-          </a>
-        )}
+        <div className="flex items-center gap-2 text-sm text-white/80">
+          {project.repoLink && (
+            <span className="hover:text-violet-400">
+              <a
+                href={project.repoLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-3 mr-3 flex items-center gap-2"
+              >
+                <FaGithub className="text-lg" />
+                <span className="text-sm">GitHub Repo</span>
+              </a>
+            </span>
+          )}
+
+          {project.liveLink && (
+            <span className="hover:text-violet-400">
+              <a
+                href={project.liveLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-3 flex items-center gap-2"
+              >
+                <FaExternalLinkAlt className="text-lg" />
+                <span className="text-sm">Visit Site</span>
+              </a>
+            </span>
+          )}
+        </div>
 
         <div className="mt-4 flex flex-wrap gap-2">
           {project.technologies.map((technology) => (
