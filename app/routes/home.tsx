@@ -69,25 +69,29 @@ export default function Home() {
 
             {/* social links */}
             <div className="mt-4 flex items-center justify-center gap-6 sm:justify-start">
-              <a
-                href="https://github.com/searooter1"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 text-white/80"
-              >
-                <FaGithub className="text-lg" />
-                <span className="text-sm">GitHub</span>
-              </a>
+              <span className="hover:text-violet-400">
+                <a
+                  href="https://github.com/searooter1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-white/80"
+                >
+                  <FaGithub className="text-lg" />
+                  <span className="text-sm">GitHub</span>
+                </a>
+              </span>
 
-              <a
-                href="https://www.linkedin.com/in/colederuiter/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 text-white/80"
-              >
-                <FaLinkedin className="text-lg" />
-                <span className="text-sm">LinkedIn</span>
-              </a>
+              <span className="hover:text-violet-400">
+                <a
+                  href="https://www.linkedin.com/in/colederuiter/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-white/80"
+                >
+                  <FaLinkedin className="text-lg" />
+                  <span className="text-sm">LinkedIn</span>
+                </a>
+              </span>
             </div>
           </div>
 

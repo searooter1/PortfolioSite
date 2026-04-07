@@ -25,8 +25,10 @@ export const projects: Project[] = [
         <div className="my-7">
           <h2 className="text-2xl font-semibold text-white">Overview</h2>
           <p>
-            DeckAi is a deck builder website with search, filters, and public deck
-            sharing.
+            DeckAi is a full-stack trading card game deck builder that allows users to search for cards, build and manage custom decks, and share them with others.
+            The website uses a React frontend with a Next.js and MongoDB backend, allowing features like authentication, deck editing, and visibility settings.
+            By integrating external card APIs and implementing smart data handling, this project shows a complete development workflow,
+            focusing on both user experience and solid backend architecture with heavy reliance on APIs.
           </p>
         </div>
 
@@ -82,8 +84,10 @@ export const projects: Project[] = [
         <div className="my-7">
           <h2 className="text-2xl font-semibold text-white">Overview</h2>
           <p>
-            DeckAi is a deck builder website with search, filters, and public deck
-            sharing.
+            This project is a product showcase website built to display and manage content through Contentful CMS.
+            It allows for displaying and modifying product information, making it easy to update and maintain content without changing any code.
+            Using React and Next.js, the site has efficient routing, and content delivery through the CMS
+            This project simulates a workflow for scalable website.
           </p>
         </div>
 
@@ -137,8 +141,10 @@ export const projects: Project[] = [
         <div className="my-7">
           <h2 className="text-2xl font-semibold text-white">Overview</h2>
           <p>
-            DeckAi is a deck builder website with search, filters, and public deck
-            sharing.
+            This project is an implementation of the Hearts card game built using C# and WindowsForms.
+            It heavily utilizes an OOP design to model game logic, player interactions, and a scoring system while using an MVC design pattern.
+            This project includes events to notify other parts of the system when something happens in the game, this project also uses unit testing to ensure reliability of core mechanics.
+            This project demonstrates good skills in software design, game logic, and building interactive applications in an OOP language like C#.
           </p>
         </div>
 
@@ -148,7 +154,7 @@ export const projects: Project[] = [
             <li>C# with Windows Forms</li>
             <li>OOP</li>
             <li>Unit testing</li>
-            <li>Using the MVC model for a game</li>
+            <li>MVC</li>
             <li>Events</li>
           </ul>
         </div>
@@ -190,15 +196,23 @@ export const projects: Project[] = [
         <div className="my-7">
           <h2 className="text-2xl font-semibold text-white">Overview</h2>
           <p>
-            DeckAi is a deck builder website with search, filters, and public deck
-            sharing.
+            This project is a full-stack web application designed to simulate hotel operations through a PostgreSQL database,
+            allowing users to interact with reservations, guests, and room management.
+            The system emphasizes strong database design, following normalization principles up to 3NF to ensure data integrity and efficiency,
+            while providing a React and Next.js frontend for user interaction.
+            Docker was used to manage the development environment, enabling consistent database setup and deployment.
+            This project highlights the integration of a well-structured relational database with a React website,
+            reflecting a real-world use case.
           </p>
         </div>
 
         <div className="my-7">
           <h2 className="text-2xl font-semibold text-white m">What I did Learn?</h2>
           <ul className="list-disc pl-6 space-y-2">
-            <li>Big Postgresql database project</li>
+            <li>Postgresql</li>
+            <li>Database normalization process from 0NF to 3NF</li>
+            <li>Docker</li>
+            <li>React Router</li>
           </ul>
         </div>
 
@@ -207,9 +221,8 @@ export const projects: Project[] = [
             How did this project make me a better developer?
           </h2>
           <ul className="list-disc pl-6 space-y-2">
-            <li>Experience developing using test driven development</li>
-            <li>Improved meeting communication</li>
-            <li>Using a CRM for data with scheduled posting</li>
+            <li>Experience using Postgresql for a large database</li>
+            <li>More Experience developing a schema with 3NF and visualizing it with a ERD</li>
           </ul>
         </div>
 
@@ -218,7 +231,7 @@ export const projects: Project[] = [
             What can I improve on for future projects?
           </h2>
           <ul className="list-disc pl-6 space-y-2">
-            <li>Better UX and instructions for users</li>
+            <li>Better organization of design documents</li>
           </ul>
         </div>
       </>
@@ -236,15 +249,49 @@ export const projects: Project[] = [
       "A small internal site for viewing cases.",
     fullDescription: (
       <>
-        <h2 className="text-2xl font-semibold text-white">Overview</h2>
-        <p>
-          desc
-        </p>
+        <div className="my-7">
+          <h2 className="text-2xl font-semibold text-white">Overview</h2>
+            <p>
+              This project is an internal Salesforce-based website designed to allow users to securely view and interact with their cases.
+              It leverages Apex for backend logic and data access, along with AMPScript and Salesforce tools to handle dynamic content and user interactions.
+              This project focuses on securely exposing relevant case information while having proper access control and data handling practices.
+            </p>
+        </div>
+
+        <div className="my-7">
+          <h2 className="text-2xl font-semibold text-white m">What I did Learn?</h2>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Salesforce</li>
+            <li>Apex</li>
+            <li>AMPScript</li>
+          </ul>
+        </div>
+
+        <div className="my-7">
+          <h2 className="text-2xl font-semibold text-white">
+            How did this project make me a better developer?
+          </h2>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Im now more comfortable in a professional work environment</li>
+            <li>Experience working in the Salesforce eco system</li>
+            <li>More comfortable working on a project with a tech stack im unfamiliar with</li>
+            <li>Improving at handling documentation</li>
+          </ul>
+        </div>
+
+        <div className="my-7">
+          <h2 className="text-2xl font-semibold text-white">
+            What can I improve on for future projects?
+          </h2>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>In future projects I should read the documentation more thoroughly to improve my development speed</li>
+          </ul>
+        </div>
       </>
     ),
     repoLink: "",
-    image: "/images/hotel1.png",
-    images: ["/images/hotel1.png", "/images/hotel2.png", "/images/hotel3.png"],
+    image: "/images/case1.png",
+    images: ["/images/case1.png"],
     technologies: ["Salesforce", "AMPScript", "Apex", "SQL"],
   },
 ];
