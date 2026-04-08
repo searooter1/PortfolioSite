@@ -17,7 +17,7 @@ export const projects: Project[] = [
   {
     id: 1,
     slug: "deckai",
-    title: "DeckAi",
+    title: "CyberTCG",
     description:
       "A deck builder website with search, filters, and public deck sharing.",
     fullDescription: (
@@ -25,7 +25,7 @@ export const projects: Project[] = [
         <div className="my-7">
           <h2 className="text-2xl font-semibold text-white">Overview</h2>
           <p>
-            DeckAi is a full-stack trading card game deck builder that allows users to search for cards, build and manage custom decks, and share them with others.
+            CyberTCG is a full-stack trading card game deck builder that allows users to search for cards, build and manage custom decks, and share them with others.
             The website uses a React frontend with a Next.js and MongoDB backend, allowing features like authentication, deck editing, and visibility settings.
             By integrating external card APIs and implementing smart data handling, this project shows a complete development workflow,
             focusing on both user experience and solid backend architecture with heavy reliance on APIs.
