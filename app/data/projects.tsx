@@ -166,7 +166,6 @@ export const projects: Project[] = [
           <ul className="list-disc pl-6 space-y-2">
             <li>Experience developing using test driven development</li>
             <li>Improved meeting communication</li>
-            <li>Using a CRM for data with scheduled posting</li>
           </ul>
         </div>
 
