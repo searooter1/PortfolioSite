@@ -110,7 +110,7 @@ export const projects: Project[] = [
           <ul className="list-disc pl-6 space-y-2">
             <li>More experience working in a team</li>
             <li>Working in short sprints throughout semester, using proper documentation to facilitate this</li>
-            <li>Using a CRM for data with scheduled posting</li>
+            <li>Using a CMS for data with scheduled posting</li>
           </ul>
         </div>
 
