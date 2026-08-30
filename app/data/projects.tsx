@@ -71,7 +71,7 @@ export const projects: Project[] = [
     //liveLink: "https://decktcg.vercel.app",
     image: "/images/deckai1.png",
     images: ["/images/deckai1.png", "/images/deckai2.png", "/images/deckai3.png"],
-    technologies: ["React", "TypeScript", "Next.js", "MongoDB", "Auth.js", "Gemini"],
+    technologies: ["React", "TypeScript", "Next.js", "MongoDB", "Auth.js", "Gemini API"],
   },
   {
     id: 2,
@@ -87,7 +87,8 @@ export const projects: Project[] = [
             This project is a product showcase website built to display and manage content through Contentful CMS.
             It allows for displaying and modifying product information, making it easy to update and maintain content without changing any code.
             Using React and Next.js, the site has efficient routing, and content delivery through the CMS
-            This project simulates a workflow for scalable website.
+            This project simulates a workflow for scalable website. Additionally on this project we learned how to use the Gemini AI API 
+            to allow for AI generated decks.
           </p>
         </div>
 
