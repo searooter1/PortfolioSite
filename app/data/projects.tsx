@@ -68,7 +68,7 @@ export const projects: Project[] = [
       </>
     ),
     repoLink: "https://github.com/searooter1/Capstone_TCG_Deck",
-    liveLink: "https://decktcg.vercel.app",
+    //liveLink: "https://decktcg.vercel.app",
     image: "/images/deckai1.png",
     images: ["/images/deckai1.png", "/images/deckai2.png", "/images/deckai3.png"],
     technologies: ["React", "TypeScript", "Next.js", "MongoDB", "Auth.js", "Gemini"],
